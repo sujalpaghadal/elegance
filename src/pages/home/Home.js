@@ -13,7 +13,7 @@ import OurHistory from "../../components/home/OurHistory";
 import WhatWeDo from "../../components/home/WhatWeDo";
 import ShopByCategory from "../../components/home/ShopByCategory";
 
-function Home() {
+export default function Home() {
   const herodetails = [
     {
       image: heroImage,
@@ -50,4 +50,4 @@ function Home() {
   );
 }
 
-export default Home;
+

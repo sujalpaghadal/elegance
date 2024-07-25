@@ -21,7 +21,7 @@ const shopByGender = [
 ]
     return (
         <>
-            <Box>
+            <Box mt={10} mb={{xs:10,md:"unset"}}>
                 <Container>
                     <Box sx={{fontSize: "42px", fontWeight: 700, textAlign: "center", color: "gold", letterSpacing: 2}}>Shop
                         by gender</Box>
