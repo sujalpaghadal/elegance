@@ -32,7 +32,7 @@ import man from "../../assets/image/style/man.png";
 import GetInTouch from "../../components/contactUs/GetInTouch";
 import TopSellers from "../../components/global/TopSellers";
 
-function Home() {
+export default function Home() {
   const herodetails = [
     {
       image: heroImage,
@@ -102,4 +102,4 @@ function Home() {
   );
 }
 
-export default Home;
+

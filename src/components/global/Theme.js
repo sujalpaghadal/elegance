@@ -7,6 +7,7 @@ const theme = createTheme({
     dark:"#3D3D3D",
     lightdark:"#252525",
     darkGray: "#3d3d3d",
+    cream:"#DDC6AF"
   },
 });
 

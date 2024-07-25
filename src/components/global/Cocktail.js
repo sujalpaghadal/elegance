@@ -1,60 +1,31 @@
 import React from 'react';
 import { Box, Button, Container, Grid, Typography } from '@mui/material'
 import underLine from "../../assets/image/contactUs/underline.png";
-import women1 from "../../assets/image/style/women-1.png"
-import women2 from "../../assets/image/style/women-2.png"
-import women3 from "../../assets/image/style/women-3.png"
-import women4 from "../../assets/image/style/women-4.png"
 
-function Cocktail(props) {
-    const data = [
-        {
-            picture:women1,
-            proTitle:"GOLD JEWELRY",
-            proDetails:"LOREM IPSUM DOLOR SIT AMET",
-            button:"VIEW COLLECTONS",
-        },
-        {
-            picture:women2,
-            proTitle:"SILVER JEWELRY",
-            proDetails:"LOREM IPSUM DOLOR SIT AMET",
-            button:"VIEW COLLECTONS",
-        },
-        {
-            picture:women3,
-            proTitle:"STEEL JEWELRY",
-            proDetails:"LOREM IPSUM DOLOR SIT AMET",
-            button:"VIEW COLLECTONS",
-        },
-        {
-            picture:women4,
-            proTitle:"FASHION JEWELRY",
-            proDetails:"LOREM IPSUM DOLOR SIT AMET",
-            button:"VIEW COLLECTONS",
-        },
-    ]
+
+function Cocktail({data,title,des}) {
+
     return (
         <>
             <div>
-                <Box sx={{marginTop:"100px"}}>
+                <Box sx={{mb:10}}>
                     <Container >
-                        <Box sx={{fontSize: "42px", fontWeight: 700, textAlign: "center", color: "gold", letterSpacing: 2}}>WOMEN'S STYLE</Box>
+                        <Box sx={{fontSize: "42px", fontWeight: 700, textAlign: "center", color: "gold", letterSpacing: 2}}>{title}</Box>
                         <Box sx={{display: "flex", justifyContent: 'center'}}>
                             <Box sx={{width: "250px"}}>
                                 <img src={underLine} alt="underLine" style={{objectFit: "contain"}}/>
                             </Box>
                         </Box>
                         <Box className={"desc"} sx={{textAlign: "center", fontSize: "18px", mt: 1}}>
-                            Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis
-                            natoque penatibus et dis parturient montes, nascetur ridiculus mus. Nulla dui.
+                            {des}
                         </Box>
 
 
-                            <Grid container sx={{ marginTop:"40px", marginBottom:"30px",justifyContent:"center"}} spacing={3}>
+                            <Grid container sx={{ marginTop:"40px", marginBottom:"30px",justifyContent:"center"}} spacing={3} >
                                 {
                                     data.map((item) => {
                                         return(
-                                            <Grid item   lg={3} md={6} sm={6} xs={12} display={"flex"} justifyContent={"center"}>
+                                            <Grid item   lg={3} md={4} sm={6} xs={12} display={"flex"} justifyContent={"center"}>
                                                 <Box sx={{cursor:"pointer","& :hover":{
                                                         backgroundColor:"cream",
                                                         "& .proname":{

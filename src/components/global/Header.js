@@ -30,9 +30,9 @@ function Header() {
     { text: "Home", path: "/" },
     { text: "About", path: "/about" },
     { text: "Jewelry", path: "/Jewelry" },
-    { text: "Style", path: "/Style" },
+    { text: "Style", path: "/style" },
     { text: "Collection", path: "/Collection" },
-    { text: "Contact us", path: "/Contactus" },
+    { text: "Contact us", path: "/contact-us" },
   ];
 
   return (
