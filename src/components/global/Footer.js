@@ -32,8 +32,9 @@ function Footer() {
         .email("Invalid email address")
         .required("Email is required"),
     }),
-    onSubmit: (values) => {
+    onSubmit: (values, { resetForm }) => {
       console.log("Form values:", values);
+      resetForm(); // Reset the form after submission
     },
   });
 
@@ -277,7 +278,7 @@ function Footer() {
                     borderRadius: 50,
                     color: "white",
                     fontSize: 18,
-                    fontWeight: 500,
+                    fontWeight: 700,
                     transition: "background 0.3s ease",
                     "&:hover": {
                       background:

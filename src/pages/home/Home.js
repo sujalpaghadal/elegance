@@ -8,6 +8,10 @@ import heroImage2 from "../../assets/image/HeroSection/Group57.png";
 import recheroImage2 from "../../assets/image/HeroSection/Group695.png";
 import heroImage3 from "../../assets/image/HeroSection/Group58.png";
 import recheroImage3 from "../../assets/image/HeroSection/Group696.png";
+import Opportunities from "../../components/home/Opportunities";
+import OurHistory from "../../components/home/OurHistory";
+import WhatWeDo from "../../components/home/WhatWeDo";
+import ShopByCategory from "../../components/home/ShopByCategory";
 
 function Home() {
   const herodetails = [
@@ -37,6 +41,11 @@ function Home() {
   return (
     <>
       <HeroSection herodetails={herodetails} />
+      <Welcome />
+      <OurHistory />
+      {/* <ShopByCategory /> */}
+      <Opportunities />
+      <WhatWeDo />
     </>
   );
 }

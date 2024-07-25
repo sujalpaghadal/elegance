@@ -1,11 +1,11 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import underLine from "../../assets/image/global/Vector.png";
-import wel1 from "../../assets/image/Home/Rectangle 10.png";
-import wel2 from "../../assets/image/Home/Rectangle 11.png";
+import wel1 from "../../assets/image/Home/Rectangle87.png";
+import wel2 from "../../assets/image/Home/d71f074f8311a28a9053913a9553f093.png";
 import design from "../../assets/image/global/wec1.png";
 
-function Welcome() {
+function Opportunities() {
   return (
     <>
       <Box>
@@ -24,13 +24,13 @@ function Welcome() {
                 <Box>
                   <Box
                     sx={{
-                      fontSize: "42px",
+                      fontSize: { md: "42px", sm: "36px", xs: "30px" },
                       fontWeight: 700,
                       color: "gold",
                       letterSpacing: 2,
                     }}
                   >
-                    Welcome
+                    OPPORTUNITIES
                   </Box>
                   <Box my={1}>
                     <Box sx={{ width: "190px" }}>
@@ -52,14 +52,12 @@ function Welcome() {
                         sx={{ fontSize: "14px", fontWeight: "400" }}
                         my={2}
                       >
-                        Lorem ipsum dolor sit amet conse ctetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate.
+                        Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris n aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate. Aenean
+                        nonummy hendrerit mauris.
                       </Typography>
-                      <Typography
+                      {/* <Typography
                         sx={{ fontSize: "14px", fontWeight: "400" }}
                         my={2}
                       >
@@ -68,7 +66,7 @@ function Welcome() {
                         enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat. Duis
                         aute irure dolor in reprehenderit in voluptate
-                      </Typography>
+                      </Typography> */}
                     </Box>
                   </Box>
                   <Box maxWidth={"170px"} my={2}>
@@ -173,4 +171,4 @@ function Welcome() {
   );
 }
 
-export default Welcome;
+export default Opportunities;

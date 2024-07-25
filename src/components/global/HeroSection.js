@@ -30,7 +30,7 @@ function HeroSection({ herodetails }) {
                   md: `url(${detail.image})`,
                 },
                 backgroundSize: "cover",
-                height: "100vh",
+                height: "calc(100vh - 20px)",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 display: "flex",
