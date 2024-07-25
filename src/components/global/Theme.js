@@ -5,7 +5,7 @@ const theme = createTheme({
     gold: "#ECD4BA",
     gray: "#444444",
     dark:"#3D3D3D",
-    lightdark:"#252525"
+    lightdark:"#252525",
     darkGray: "#3d3d3d",
   },
 });
