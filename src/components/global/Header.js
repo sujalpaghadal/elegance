@@ -28,7 +28,7 @@ function Header() {
 
   const menuItems = [
     { text: "Home", path: "/" },
-    { text: "About", path: "/About" },
+    { text: "About", path: "/about" },
     { text: "Jewelry", path: "/Jewelry" },
     { text: "Style", path: "/Style" },
     { text: "Collection", path: "/Collection" },

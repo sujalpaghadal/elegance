@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 import GetInTouch from "../../components/contactUs/GetInTouch";
 
 function ContactUs(props) {
-    return (
-        <>
-            <GetInTouch />
-        </>
-    );
+  return (
+    <>
+      <GetInTouch />
+    </>
+  );
 }
 
 export default ContactUs;
